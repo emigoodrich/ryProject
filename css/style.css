@@ -1,0 +1,335 @@
+.ornge {
+    background-color: orange;
+    width: 100%;
+}
+.top {
+    background-color: orange;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    z-index: 1;
+}
+.navigation span {
+    margin-left: 13px;
+    font-weight: lighter;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    background-color: none;
+}
+.fancyPicture {
+    margin-top: 4px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.fancyPicture img {
+    width: 100%;
+    margin-bottom: -450px;
+    
+}
+.fancyWords {
+    background-color: white;
+    bottom: 100px;
+    position: absolute;
+    font-size: 30px;
+    padding: 15px;
+    
+}
+.everyday {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.paragraph {
+    background-color: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.threeImages {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: none;
+    overflow: hidden;
+
+}
+.threeImages img{
+    margin-bottom: 10px;
+    width: 300px;
+}
+.threeWords {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.threeWords div {
+    background-color: none;
+    width: 300px;
+    text-align: center;
+}
+.blue {
+    background-color: lavender;
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+.healthyRecipes {
+    margin: auto;
+    background-color: none;
+    width: 80%;
+
+}
+.recipeWords {
+    
+    background-color: none;
+}
+.recipeIdeas {
+    font-size: 20px;
+}
+.recipePictures {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: none;
+    margin-top: 30px;
+}
+.recipePictures img{
+    width: 200px;
+}
+.recipeLabels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recipeLabels div {
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.whereToEat div {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.whereToEat {
+    background-color: none;
+    margin: auto;
+    width: 80%;
+}
+.eatingPics {
+    display: flex;
+    justify-content: space-between;
+}
+.eatingPics img {
+    width: 300px;
+    border-style: solid;
+    border-color: lavender;
+    border-width: 7px;
+}
+.eatingWordsForPics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+
+}
+.eatingWordsForPics div{
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    background-color: none;
+}
+.orange {
+    background-color: orange;
+    padding: 30px;
+}
+.theBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+    font-weight: lighter;
+    
+}
+.bottomRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: none;
+    width: 35%;
+    
+}
+.bottomRight span {
+    margin-left: 13px;
+
+}
+ a {
+    text-decoration: none;
+    color: black;
+}
+.burg {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.burg img{
+    width: 100%;
+    margin-top: -200px;
+    margin-bottom: -400px;
+    
+}
+.burg div {
+    background-color: white;
+    bottom: 150px;
+    position: absolute;
+    font-size: 30px;
+    padding: 15px;
+}
+.lavender {
+    background-color: lavender;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.topInstructions {
+margin-left: 100px;
+}
+.topRow {
+display: flex;
+flex-direction: row;
+background-color: none;
+width: 50%;
+justify-content: space-between;
+}
+.bottomRow {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    width: 50%;
+    justify-content: space-between;
+}
+.topRow div, .bottomRow div {
+    width: 200px;
+    background-color: none;
+    font-size: 20px;
+}
+span {
+    font-weight: bolder;
+}
+.bengal {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stars {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.stars img {
+    width: 20px;
+    
+}
+.redButton {
+    background-color:#fe0000;
+    border-radius: 30px;
+    display: inline;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.thirdLine img {
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 30px;;
+}
+.thirdLine {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.blueParagraph {
+    background-color: lavender;
+    padding: 30px;
+    margin: auto;
+    width: 75%;
+}
+
+.blueParagraph span {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+}
+.instructions {
+    width:75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    margin-top: 50px;
+}
+.ingredients {
+    margin-left: 0;
+
+}
+.ingredients ul li {
+    margin-top: 7px;
+}
+h6 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.directions ol h6 {
+    margin-bottom: 20px;
+}
+.directions {
+    width: 50%;
+    margin-bottom: 100px;
+}
+.directions ol li {
+    margin-top: 7px;
+}
+.burg div, .fancyPicture div {
+    font-weight: bold;
+}
+.videoForTwoExtraPointsIThink {
+   margin-top: 130px;
+   background-color: none;
+   
+}
+#burgerVideoLink {
+    color: blue;
+    background-color: lavender;
+    
+}
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
